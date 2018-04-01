@@ -2,7 +2,7 @@
 
 Project designed with KiCAD
 
-## Materials
+## Bills of Materials
 
 - 1 LM358N
 - 2 2N2222
