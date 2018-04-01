@@ -1,0 +1,77 @@
+
+(session sensonr_ir.ses
+  (base_design sensonr_ir.dsn)
+  (placement
+    (resolution um 10)
+    (component LED_THT:LED_D5.0mm
+      (place D1 1308100 -749300 front 180)
+    )
+    (component "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
+      (place J1 1282700 -876300 front 0)
+    )
+    (component Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal
+      (place R1 1422400 -812800 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.0.0-rc2-dev-unknown-0ded476~63~ubuntu16.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(D1-Pad1)"
+        (wire
+          (path B.Cu 2500
+            1308100 -749300
+            1320353 -749300
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1422400 -812800
+            1383853 -812800
+            1320353 -749300
+          )
+        )
+      )
+      (net VCC
+        (wire
+          (path B.Cu 2500
+            1317700 -876300
+            1317700 -784300
+            1282700 -749300
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path B.Cu 2500
+            1168400 -812800
+            1183653 -812800
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1183653 -812800
+            1247153 -876300
+            1282700 -876300
+          )
+        )
+      )
+    )
+  )
+)
