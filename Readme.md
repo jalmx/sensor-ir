@@ -15,3 +15,7 @@ Project designed with KiCAD
 ## Download
 
 Download the schematic diagram [here](https://github.com/jalmx89/Sensor_IR/raw/master/dist/sensonr_ir.pdf)
+
+## Schematic
+
+![Schematic diagram](https://github.com/jalmx89/Sensor_IR/blob/master/dist/sensonr_ir.svg)
