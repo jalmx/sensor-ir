@@ -1,6 +1,10 @@
 # Sensor IR with LM358
 
-Project designed with KiCAD
+Project designed with [KiCAD](https://www.kicad.org)
+
+## Details about develop
+
+[Calculate](Calculator/Calculator.pdf)
 
 ## Bills of Materials
 
@@ -9,13 +13,17 @@ Project designed with KiCAD
 - Led Infrared IR333
 - Phototransistor PT331C
 - Resistors 10k, 333k,5.6k, 1k
-- 1 Potenciometer 10k
-- 1 Relay 5VDC
+- 1 Potentiometer 10k
+- 1 Relay 5VDC 
 
 ## Download
 
-Download the schematic diagram [here](https://github.com/jalmx89/Sensor_IR/raw/master/dist/sensonr_ir.pdf)
+Download the schematic diagram [here](dist/sensonr_ir.pdf)
+
+## Photos
+
+![View](photos/DSC_0320.JPG)
 
 ## Schematic
 
-![Schematic diagram](https://github.com/jalmx89/Sensor_IR/blob/master/dist/sensonr_ir.svg)
+![Schematic diagram](dist/sensonr_ir.svg)
